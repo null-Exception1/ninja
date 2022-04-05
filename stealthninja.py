@@ -39,8 +39,5 @@ class cli:
         self.cookies = res.cookies.get_dict()
         return res
 
-client = cli()
 
-a = client.get('https://coursehero.com')
 
-print(a.text)
