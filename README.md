@@ -21,7 +21,7 @@ print(response.text)
 ```
 <br />
 POST request to server, sends a post request and returns a request response from the website url. <br />
-<br />
+
 ```py
 response = client.get('https://example.com')
 print(response.text)
